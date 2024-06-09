@@ -1,0 +1,60 @@
+.kk-hide {
+  display: none !important;
+}
+
+@media (max-width: 480px) {
+  /* body {
+        padding-bottom: calc(var(--unit-kk)* 70);
+    } */
+
+  .kk-mobile-show {
+    display: flex !important;
+  }
+
+  .kk-mobile-hide {
+    display: none !important;
+  }
+
+  .kk-mobile-overflow-auto {
+    overflow: auto;
+  }
+
+  .kk-mobile-overflow-x-auto {
+    overflow-y: hidden;
+    overflow-x: auto;
+  }
+
+  .kk-mobile-overflow-y-auto {
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+
+  .kk-mobile-overflow-auto::-webkit-scrollbar,
+  .kk-mobile-overflow-x-auto::-webkit-scrollbar,
+  .kk-mobile-overflow-y-auto::-webkit-scrollbar {
+    width: calc(var(--unit-kk) * 5) !important;
+  }
+
+  /* width */
+  .kk-mobile-overflow-auto::-webkit-scrollbar,
+  .kk-mobile-overflow-x-auto::-webkit-scrollbar,
+  .kk-mobile-overflow-y-auto::-webkit-scrollbar {
+    width: calc(var(--unit-kk) * 3);
+    height: calc(var(--unit-kk) * 3);
+  }
+
+  /* Track */
+  .kk-mobile-overflow-auto::-webkit-scrollbar-track,
+  .kk-mobile-overflow-x-auto::-webkit-scrollbar-track,
+  .kk-mobile-overflow-y-auto::-webkit-scrollbar-track {
+    background: var(--kk-color-light-gray4);
+    border-radius: calc(var(--unit-kk) * 5);
+  }
+
+  /* Handle */
+  .kk-mobile-overflow-auto::-webkit-scrollbar-thumb,
+  .kk-mobile-overflow-x-auto::-webkit-scrollbar-thumb,
+  .kk-mobile-overflow-y-auto::-webkit-scrollbar-thumb {
+    background: var(--kk-color-light-gray2);
+  }
+}

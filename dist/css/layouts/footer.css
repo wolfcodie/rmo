@@ -1,0 +1,98 @@
+.footer-mobile {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: calc(var(--unit-kk) * 64);
+  background: #fff;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 calc(var(--unit-kk) * 30);
+  display: none;
+  box-shadow: -1px 2px 11px 0px rgba(151, 151, 151, 0.42);
+  z-index: 90;
+}
+
+.mobile-add-demande {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #fff;
+  padding: calc(var(--unit-kk) * 22);
+  padding-bottom: calc(var(--unit-kk) * 100);
+  transform: translateY(100%);
+  transition: 0.2s all ease-in-out;
+}
+
+.mobile-add-demande.open {
+  transform: translateY(0%);
+}
+
+@media (max-width: 480px) {
+  .footer-mobile {
+    display: flex;
+  }
+
+  .footer-mobile .kk-nav-options {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+
+  .footer-mobile .kk-nav-notifications-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+  }
+
+  .footer-mobile .kk-nav-btn > button {
+    background: none;
+    border: none;
+  }
+
+  .footer-mobile .kk-nav-btn-home {
+    order: 1;
+  }
+
+  .footer-mobile .kk-nav-btn-notification {
+    order: 2;
+  }
+
+  .footer-mobile .kk-nav-btn-add {
+    order: 3;
+  }
+
+  .footer-mobile .kk-nav-btn-message {
+    order: 4;
+  }
+
+  .footer-mobile .kk-nav-btn-search {
+    order: 5;
+  }
+
+  .footer-mobile .kk-nav-btn > a > img,
+  .footer-mobile .kk-nav-btn > button > img {
+    width: calc(var(--unit-kk) * 27);
+    height: calc(var(--unit-kk) * 27);
+    filter: brightness(1.92) grayscale(1) !important;
+  }
+
+  .footer-mobile .kk-nav-btn-add > button {
+    width: calc(var(--unit-kk) * 41);
+    height: calc(var(--unit-kk) * 41);
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--kk-color-primary);
+  }
+
+  .footer-mobile .kk-nav-btn-add > button > img {
+    width: calc(var(--unit-kk) * 30);
+    height: calc(var(--unit-kk) * 30);
+    filter: brightness(0) invert(1) !important;
+  }
+}

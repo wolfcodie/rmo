@@ -1,0 +1,161 @@
+.kk-sidemenu {
+  min-width: calc(var(--unit-kk) * 350);
+  min-height: 100vh;
+  border-inline-end: 1px solid var(--kk-color-light-gray2);
+  padding: calc(var(--unit-kk) * 20) calc(var(--unit-kk) * 25);
+}
+
+.kk-sidemenu .kk-sidemenu-nav {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.kk-sidemenu .kk-sidemenu-nav .kk-sidemenu-nav-item > a {
+  padding: 0 calc(var(--unit-kk) * 20);
+  height: calc(var(--unit-kk) * 41);
+  display: flex;
+  align-items: center;
+  color: var(--kk-color-dark);
+  font-family: Lexend;
+  font-style: normal;
+  font-size: calc(var(--unit-kk) * 15);
+  font-weight: 600;
+  margin-bottom: calc(var(--unit-kk) * 10);
+}
+
+.kk-sidemenu
+  .kk-sidemenu-nav
+  .kk-sidemenu-nav-item:has(.kk-sidemenu-subnav)
+  > a:after {
+  content: "";
+  width: calc(var(--unit-kk) * 13);
+  height: calc(var(--unit-kk) * 13);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  inset-inline-end: calc(var(--unit-kk) * 20);
+  top: 50%;
+  transform: translateY(-50%);
+  filter: brightness(1.92) grayscale(1);
+  transition: 0.2s all ease-in-out;
+}
+
+.kk-sidemenu .kk-sidemenu-nav .kk-sidemenu-nav-item.active > a,
+.kk-sidemenu .kk-sidemenu-nav .kk-sidemenu-nav-item > a:hover {
+  border-radius: calc(var(--unit-kk) * 5);
+  background: var(--kk-color-secondary);
+}
+
+.kk-sidemenu .kk-sidemenu-nav .kk-sidemenu-nav-item.active > a:after {
+  transform: translateY(-50%) rotate(90deg);
+}
+
+.kk-sidemenu .kk-sidemenu-nav .kk-sidemenu-subnav {
+  margin: 0;
+  list-style: none;
+  border-bottom: 1px solid var(--kk-color-secondary);
+  padding-inline-start: calc(var(--unit-kk) * 40);
+  /* padding-top: calc(var(--unit-kk)* 20); */
+  padding-bottom: calc(var(--unit-kk) * 10);
+  margin-bottom: calc(var(--unit-kk) * 10);
+  display: none;
+}
+
+.kk-sidemenu .kk-sidemenu-nav .kk-sidemenu-nav-item.active .kk-sidemenu-subnav {
+  display: block;
+}
+
+.kk-sidemenu .kk-sidemenu-nav .kk-sidemenu-subnav > li > a {
+  color: var(--kk-color-gray);
+  font-family: Lexend;
+  font-style: normal;
+  font-size: calc(var(--unit-kk) * 13);
+  font-weight: 500;
+  line-height: calc(var(--unit-kk) * 24);
+  padding-top: calc(var(--unit-kk) * 5);
+  padding-bottom: calc(var(--unit-kk) * 5);
+  display: block;
+}
+
+.kk-sidemenu .kk-sidemenu-nav .kk-sidemenu-subnav > li > a.active,
+.kk-sidemenu .kk-sidemenu-nav .kk-sidemenu-subnav > li > a:hover {
+  color: var(--kk-color-primary);
+  font-weight: 600;
+}
+
+.kk-sidemenu-open,
+.kk-sidemenu-close {
+  display: none;
+}
+
+@media (max-width: 480px) {
+  .kk-sidemenu-open {
+    display: block;
+    background: transparent;
+    border: none;
+    padding: 0;
+    width: calc(var(--unit-kk) * 23);
+    height: calc(var(--unit-kk) * 23);
+    line-height: 0;
+    margin-inline-end: calc(var(--unit-kk) * 24);
+    position: absolute;
+    top: calc(var(--unit-kk) * -38);
+    inset-inline-end: calc(var(--unit-kk) * 8);
+  }
+
+  .kk-sidemenu-close {
+    display: block;
+    background: transparent;
+    border: none;
+    padding: 0;
+    width: calc(var(--unit-kk) * 23);
+    height: calc(var(--unit-kk) * 23);
+    line-height: 0;
+    margin-inline-start: auto;
+  }
+
+  .kk-sidemenu {
+    position: fixed;
+    left: 0;
+    top: calc(var(--unit-kk) * 60);
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+    background: #fff;
+    transform: translateX(-100%);
+    transition: 0.2s all ease-in-out;
+  }
+
+  .kk-sidemenu.open {
+    transform: translateX(0);
+  }
+
+  body.kk-logged-in .kk-sidemenu {
+    top: calc(var(--unit-kk) * 112);
+  }
+
+  .kk-sidemenu .kk-sidemenu-nav .kk-sidemenu-nav-item > a {
+    border-radius: calc(var(--unit-kk) * 5);
+    background: var(--kk-color-secondary);
+    height: calc(var(--unit-kk) * 53);
+    margin-bottom: calc(var(--unit-kk) * 10);
+  }
+
+  .kk-sidemenu .kk-sidemenu-nav .kk-sidemenu-nav-item .kk-sidemenu-subnav {
+    background: var(--kk-color-secondary);
+  }
+
+  .kk-sidemenu .kk-sidemenu-nav .kk-sidemenu-nav-item.active > a {
+    background-color: var(--kk-color-primary);
+    color: #fff;
+  }
+
+  .kk-sidemenu
+    .kk-sidemenu-nav
+    .kk-sidemenu-nav-item.active:has(.kk-sidemenu-subnav)
+    > a {
+    margin: 0;
+  }
+}

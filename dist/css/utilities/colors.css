@@ -1,0 +1,389 @@
+:root {
+  --kk-color-primary: #7152f3;
+  --kk-color-second-primary: #a0c3b2;
+  --kk-color-dark-primary: #225e1a;
+  --kk-color-secondary: #e9e3ff;
+  --kk-color-success: #4bae4f;
+  /*
+        ****************************
+    */
+  --kk-color-light-danger: #f8d7da;
+  --kk-color-light-danger2: #ffadb5;
+  --kk-color-dark-danger: #731e36;
+  --kk-color-danger: #f26c6d;
+  /*
+        ****************************
+    */
+  --kk-color-warning: #f7b422;
+  --kk-color-info: #2196f3;
+  /*
+        ****************************
+    */
+  --kk-color-light-gray: #f4f4f4;
+  --kk-color-light-gray1: #f7f7f7;
+  --kk-color-light-gray2: #d9d9d9;
+  --kk-color-light-gray3: #fafafa;
+  --kk-color-light-gray4: #f1f1f1;
+  --kk-color-light-gray5: #c4c4c4;
+  --kk-color-light-gray6: #d8d8d8;
+  --kk-color-light-gray7: #bdbdbd;
+  --kk-color-light-gray8: #e9ecef;
+  --kk-color-light-gray9: #f8fafb;
+  --kk-color-light-gray10: #cccccc;
+  --kk-color-light-gray11: #eeeeee;
+  --kk-color-light-gray12: #faf9fd;
+  --kk-color-light-gray13: #dddddd;
+  --kk-color-light-gray14: #e5e4e3;
+  --kk-color-light-gray15: #f0f5f4;
+  --kk-color-light-gray16: #e5e5e5;
+  /*
+        ****************************
+    */
+  --kk-color-dark: #373737;
+  --kk-color-dark-gray1: #979796;
+  --kk-color-dark-gray2: #555555;
+  --kk-color-dark-gray3: #686868;
+  --kk-color-dark-gray4: #7f7f7f;
+  --kk-color-dark-gray5: #495057;
+  /*
+        ****************************
+    */
+  --kk-color-gray: #979797;
+  --kk-color-gray2: #a39f95;
+  --kk-color-gray3: #888;
+  /*
+        ****************************
+    */
+  --kk-color-mystic: #645caa;
+  --kk-color-toxic: #b589c8;
+  --kk-color-aqua: #2fc7b5;
+  /*
+        ****************************
+    */
+  --kk-color-light-primary: #f4f8f6;
+  --kk-color-light-primary2: #e8f0ec;
+  --kk-color-light-primary3: #dfebe5;
+  --kk-color-light-primary4: #f3f7f6;
+  /*
+        ****************************
+    */
+  --kk-color-primary-opacity: #e3ecea;
+  --kk-color-secondary-opacity: #f3f4f4;
+  --kk-color-success-opacity: #e9f1e9;
+  --kk-color-danger-opacity: #f7e4e4;
+  --kk-color-warning-opacity: #fbeee1;
+  --kk-color-warning-light: #fa896b;
+  --kk-color-info-opacity: #e2edf6;
+  --kk-color-mystic-opacity: #ebe8f1;
+  --kk-color-toxic-opacity: #f2e4ee;
+  --kk-color-blue-iris: #8599d2;
+  --kk-color-light-blue: #d1e6ff;
+}
+
+.kk-color-white {
+  color: #fff !important;
+}
+
+.kk-color-primary {
+  color: var(--kk-color-primary) !important;
+}
+
+.kk-color-secondary {
+  color: var(--kk-color-secondary) !important;
+}
+
+.kk-color-success {
+  color: var(--kk-color-success) !important;
+}
+
+.kk-color-danger {
+  color: var(--kk-color-danger) !important;
+}
+
+.kk-color-warning {
+  color: var(--kk-color-warning) !important;
+}
+
+.kk-color-info {
+  color: var(--kk-color-info) !important;
+}
+
+.kk-color-light-gray {
+  color: var(--kk-color-light-gray) !important;
+}
+
+.kk-color-light-gray1 {
+  color: var(--kk-color-light-gray1) !important;
+}
+
+.kk-color-light-gray2 {
+  color: var(--kk-color-light-gray2) !important;
+}
+
+.kk-color-gray {
+  color: var(--kk-color-gray) !important;
+}
+
+.kk-color-dark {
+  color: var(--kk-color-dark) !important;
+}
+
+.kk-color-mystic {
+  color: var(--kk-color-mystic) !important;
+}
+
+.kk-color-toxic {
+  color: var(--kk-color-toxic) !important;
+}
+
+.kk-color-aqua {
+  color: var(--kk-color-aqua) !important;
+}
+
+.kk-bg-transparent {
+  background-color: transparent !important;
+}
+
+.kk-bg-white {
+  background-color: #fff !important;
+}
+
+.kk-bg-primary {
+  background-color: var(--kk-color-primary) !important;
+}
+
+.kk-bg-secondary {
+  background-color: var(--kk-color-secondary) !important;
+}
+
+.kk-bg-success {
+  background-color: var(--kk-color-success) !important;
+}
+
+.kk-bg-danger {
+  background-color: var(--kk-color-danger) !important;
+}
+
+.kk-bg-warning {
+  background-color: var(--kk-color-warning) !important;
+}
+
+.kk-bg-info {
+  background-color: var(--kk-color-info) !important;
+}
+
+.kk-bg-light-gray {
+  background-color: var(--kk-color-light-gray) !important;
+}
+
+.kk-bg-light-gray1 {
+  background-color: var(--kk-color-light-gray1) !important;
+}
+
+.kk-bg-light-gray2 {
+  background-color: var(--kk-color-light-gray2) !important;
+}
+
+.kk-bg-light-gray3 {
+  background-color: var(--kk-color-light-gray3) !important;
+}
+
+.kk-bg-gray {
+  background-color: var(--kk-color-gray) !important;
+}
+
+.kk-bg-dark {
+  background-color: var(--kk-color-dark) !important;
+}
+
+.kk-bg-mystic {
+  background-color: var(--kk-color-mystic) !important;
+}
+
+.kk-bg-toxic {
+  background-color: var(--kk-color-toxic) !important;
+}
+
+.kk-bg-aqua {
+  background-color: var(--kk-color-aqua) !important;
+}
+
+.kk-bg-light-primary {
+  background-color: var(--kk-color-light-primary) !important;
+}
+
+.kk-bg-primary-opacity {
+  background-color: var(--kk-color-primary-opacity) !important;
+}
+
+.kk-bg-secondary-opacity {
+  background-color: var(--kk-color-secondary-opacity) !important;
+}
+
+.kk-bg-success-opacity {
+  background-color: var(--kk-color-success-opacity) !important;
+}
+
+.kk-bg-danger-opacity {
+  background-color: var(--kk-color-danger-opacity) !important;
+}
+
+.kk-bg-warning-opacity {
+  background-color: var(--kk-color-warning-opacity) !important;
+}
+
+.kk-bg-info-opacity {
+  background-color: var(--kk-color-info-opacity) !important;
+}
+
+.kk-bg-mystic-opacity {
+  background-color: var(--kk-color-mystic-opacity) !important;
+}
+
+.kk-bg-toxic-opacity {
+  background-color: var(--kk-color-toxic-opacity) !important;
+}
+
+.kk-hover-none:hover {
+  background-color: unset !important;
+  cursor: pointer !important;
+}
+
+.kk-hover-primary:hover {
+  background-color: var(--kk-color-primary) !important;
+  cursor: pointer !important;
+}
+
+.kk-hover-secondary:hover {
+  background-color: var(--kk-color-secondary) !important;
+  cursor: pointer !important;
+}
+
+.kk-hover-success:hover {
+  background-color: var(--kk-color-success) !important;
+  cursor: pointer !important;
+}
+
+.kk-hover-danger:hover {
+  background-color: var(--kk-color-danger) !important;
+}
+
+.kk-hover-warning:hover {
+  background-color: var(--kk-color-warning) !important;
+  cursor: pointer !important;
+}
+
+.kk-hover-info:hover {
+  background-color: var(--kk-color-info) !important;
+  cursor: pointer !important;
+}
+
+.kk-hover-light-gray:hover {
+  background-color: var(--kk-color-light-gray) !important;
+  cursor: pointer !important;
+}
+
+.kk-hover-light-gray1:hover {
+  background-color: var(--kk-color-light-gray1) !important;
+  cursor: pointer !important;
+}
+
+.kk-hover-gray:hover {
+  background-color: var(--kk-color-gray) !important;
+  cursor: pointer !important;
+}
+
+.kk-hover-dark:hover {
+  background-color: var(--kk-color-dark) !important;
+  cursor: pointer !important;
+}
+
+.kk-hover-mystic:hover {
+  background-color: var(--kk-color-mystic) !important;
+  cursor: pointer !important;
+}
+
+.kk-hover-toxic:hover {
+  background-color: var(--kk-color-toxic) !important;
+  cursor: pointer !important;
+}
+
+.kk-hover-primary-opacity:hover {
+  background-color: var(--kk-color-primary-opacity) !important;
+  cursor: pointer !important;
+}
+
+.kk-hover-secondary-opacity:hover {
+  background-color: var(--kk-color-secondary-opacity) !important;
+  cursor: pointer !important;
+}
+
+.kk-hover-success-opacity:hover {
+  background-color: var(--kk-color-success-opacity) !important;
+  cursor: pointer !important;
+}
+
+.kk-hover-danger-opacity:hover {
+  background-color: var(--kk-color-danger-opacity) !important;
+  cursor: pointer !important;
+}
+
+.kk-hover-warning-opacity:hover {
+  background-color: var(--kk-color-warning-opacity) !important;
+  cursor: pointer !important;
+}
+
+.kk-hover-info-opacity:hover {
+  background-color: var(--kk-color-info-opacity) !important;
+  cursor: pointer !important;
+}
+
+.kk-hover-mystic-opacity:hover {
+  background-color: var(--kk-color-mystic-opacity) !important;
+  cursor: pointer !important;
+}
+
+.kk-hover-toxic-opacity:hover {
+  background-color: var(--kk-color-toxic-opacity) !important;
+  cursor: pointer !important;
+}
+
+.kk-hover-link-opacity:hover {
+  opacity: 0.8 !important;
+}
+
+.kk-opacity-10 {
+  opacity: 0.1;
+}
+
+.kk-opacity-20 {
+  opacity: 0.2;
+}
+
+.kk-opacity-30 {
+  opacity: 0.3;
+}
+
+.kk-opacity-40 {
+  opacity: 0.4;
+}
+
+.kk-opacity-50 {
+  opacity: 0.5;
+}
+
+.kk-opacity-60 {
+  opacity: 0.6;
+}
+
+.kk-opacity-70 {
+  opacity: 0.7;
+}
+
+.kk-opacity-80 {
+  opacity: 0.8;
+}
+
+.kk-opacity-90 {
+  opacity: 0.9;
+}

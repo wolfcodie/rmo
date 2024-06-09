@@ -1,0 +1,34 @@
+/*** base ***/
+@import "base/global.css";
+@import "base/typography.css";
+
+/*** utilities ***/
+@import "utilities/colors.css";
+@import "utilities/spacing.css";
+@import "utilities/flex.css";
+@import "utilities/borders.css";
+
+/*** components ***/
+@import "components/positions.css";
+
+@import "components/buttons.css";
+@import "components/badges.css";
+@import "components/avatars.css";
+
+@import "components/icons.css";
+@import "components/loader.css";
+@import "components/sidemenu.css";
+
+@import "components/modals.css";
+
+/*** layouts ***/
+@import "layouts/header.css";
+@import "layouts/sidenav.css";
+@import "layouts/content.css";
+@import "layouts/footer.css";
+
+/*** pages ***/
+
+/*** responsive ***/
+
+@import "base/responsive.css";
