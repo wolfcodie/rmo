@@ -116,6 +116,18 @@
 .kk-mt-6 {
   margin-top: calc(var(--unit-kk) * 30) !important;
 }
+.kk-mt-7 {
+  margin-top: calc(var(--unit-kk) * 35) !important;
+}
+.kk-mt-8 {
+  margin-top: calc(var(--unit-kk) * 40) !important;
+}
+.kk-mt-9 {
+  margin-top: calc(var(--unit-kk) * 45) !important;
+}
+.kk-mt-10 {
+  margin-top: calc(var(--unit-kk) * 50) !important;
+}
 
 .kk-mb-auto {
   margin-bottom: auto !important;
@@ -147,6 +159,18 @@
 
 .kk-mb-6 {
   margin-bottom: calc(var(--unit-kk) * 30) !important;
+}
+.kk-mb-7 {
+  margin-bottom: calc(var(--unit-kk) * 35) !important;
+}
+.kk-mb-8 {
+  margin-bottom: calc(var(--unit-kk) * 40) !important;
+}
+.kk-mb-9 {
+  margin-bottom: calc(var(--unit-kk) * 45) !important;
+}
+.kk-mb-10 {
+  margin-bottom: calc(var(--unit-kk) * 50) !important;
 }
 
 .kk-ml-auto {

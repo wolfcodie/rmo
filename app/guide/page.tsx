@@ -1,4 +1,4 @@
-import { AddIcon } from "@/dist/icons/import";
+import { AddIcon } from "@/dist/import";
 import Image from "next/image";
 
 export default function Guide() {

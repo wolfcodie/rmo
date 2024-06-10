@@ -8,7 +8,7 @@ interface InputProps {
 
 const Input: React.FC<InputProps> = ({ title, placeholder, inputType }) => {
   return (
-    <div className=" flex flex-col relative kk-mt-4">
+    <div className=" flex flex-col relative kk-mb-6">
       <label
         htmlFor=""
         className="absolute top-[-25%] left-[2%] h5 z-10 kk-pr-4 kk-pl-2 kk-bg-white kk-color-primary kk-font-weight-400"

@@ -28,6 +28,7 @@
 @import "layouts/footer.css";
 
 /*** pages ***/
+@import "pages/auth.css";
 
 /*** responsive ***/
 
