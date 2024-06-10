@@ -12,5 +12,5 @@ export default function Layout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  return <section className="h-full">{children}</section>;
+  return <>{children}</>;
 }

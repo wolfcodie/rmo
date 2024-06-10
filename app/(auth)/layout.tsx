@@ -12,5 +12,5 @@ export default function Layout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  return <section className="kk-vh-100">{children}</section>;
+  return <section className="kk-h-100">{children}</section>;
 }

@@ -1,2 +1,3 @@
 import AddIcon from "@/dist/icons/add-icon.svg";
-export { AddIcon };
+import Logo from "@/dist/icons/Logo.svg";
+export { AddIcon, Logo };

@@ -1,7 +1,7 @@
 :root {
   --kk-color-primary: #7152f3;
   --kk-color-second-primary: #a0c3b2;
-  --kk-color-dark-primary: #225e1a;
+  --kk-color-dark-primary: #250c92;
   --kk-color-secondary: #e9e3ff;
   --kk-color-success: #4bae4f;
   /*
@@ -90,6 +90,9 @@
 
 .kk-color-secondary {
   color: var(--kk-color-secondary) !important;
+}
+.kk-color-primary-dark {
+  color: var(--kk-color-dark-primary) !important;
 }
 
 .kk-color-success {
