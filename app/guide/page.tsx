@@ -26,14 +26,8 @@ export default function Guide() {
           <button className="kk-btn kk-btn-info">btn info</button>
         </div>
         <div className="kk-mt-4 flex gap-4">
-          <button className="kk-btn kk-btn-primary">
-            <Image src={AddIcon} className="kk-mr-2" />
-            btn Icon
-          </button>
-          <button className="kk-btn kk-btn-secondary">
-            <Image src={AddIcon} className="kk-mr-2" />
-            btn Icon
-          </button>
+          <button className="kk-btn kk-btn-primary">btn Icon</button>
+          <button className="kk-btn kk-btn-secondary">btn Icon</button>
         </div>
       </div>
     </section>

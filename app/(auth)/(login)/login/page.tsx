@@ -3,17 +3,7 @@ import React from "react";
 
 function loginPage() {
   return (
-    <div>
-      <Link href={"/"} className="kk-btn kk-btn-primary kk-mt-4 w-1/5">
-        Home
-      </Link>
-      <Link
-        href={"/forgotPassword"}
-        className="kk-btn kk-btn-primary kk-mt-4 w-1/5"
-      >
-        forgot Password
-      </Link>
-    </div>
+    <div className="kk-flex kk-w-100 kk-h-100  kk-bg-primary">this login</div>
   );
 }
 
