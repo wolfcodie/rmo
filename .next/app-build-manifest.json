@@ -11,46 +11,6 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/guide/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/guide/page.js"
-    ],
-    "/guide/layout": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/guide/layout.js"
-    ],
-    "/(protected)/dashboard/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(protected)/dashboard/page.js"
-    ],
-    "/(protected)/layout": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(protected)/layout.js"
-    ],
-    "/(auth)/layout": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(auth)/layout.js"
-    ],
-    "/(auth)/demo/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(auth)/demo/page.js"
-    ],
-    "/(protected)/myoffice/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(protected)/myoffice/page.js"
-    ],
-    "/(protected)/myoffice/layout": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(protected)/myoffice/layout.js"
-    ],
     "/(auth)/(login)/login/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
@@ -61,15 +21,10 @@
       "static/chunks/main-app.js",
       "static/chunks/app/(auth)/(login)/layout.js"
     ],
-    "/(auth)/(login)/forgotPassword/page": [
+    "/(auth)/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/(auth)/(login)/forgotPassword/page.js"
-    ],
-    "/(auth)/(login)/otp/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(auth)/(login)/otp/page.js"
+      "static/chunks/app/(auth)/layout.js"
     ]
   }
 }

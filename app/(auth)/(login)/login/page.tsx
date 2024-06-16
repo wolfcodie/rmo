@@ -27,10 +27,12 @@ function loginPage() {
         />
         <div className="flex justify-between">
           <div className="flex items-center">
-            <input type="checkbox" />
-            <label htmlFor="" className="h4 kk-font-wight-500 kk-ml-2">
-              Remember Me
-            </label>
+            <div className="kk-chackbox">
+              <input type="checkbox" className="kk-form-control" />
+              <label className="kk-form-label text-s kk-py-1">
+                Demi-journée (début)
+              </label>
+            </div>
           </div>
         </div>
       </div>

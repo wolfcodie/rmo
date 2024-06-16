@@ -7,6 +7,7 @@
 @import "utilities/spacing.css";
 @import "utilities/flex.css";
 @import "utilities/borders.css";
+@import "utilities/inputs.css";
 
 /*** components ***/
 @import "components/positions.css";

@@ -75,7 +75,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: "Lexend";
+  font-family: "Lexend", sans-serif;
   font-style: normal;
   font-weight: 600;
   line-height: calc(var(--unit-kk) * 24);

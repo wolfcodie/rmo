@@ -1,7 +1,5 @@
 {
   "/page": "app/page.js",
-  "/guide/page": "app/guide/page.js",
-  "/(auth)/(login)/login/page": "app/(auth)/(login)/login/page.js",
-  "/(auth)/(login)/forgotPassword/page": "app/(auth)/(login)/forgotPassword/page.js",
-  "/(auth)/(login)/otp/page": "app/(auth)/(login)/otp/page.js"
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/(auth)/(login)/login/page": "app/(auth)/(login)/login/page.js"
 }

@@ -1,0 +1,54 @@
+.kk-chackbox input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+.kk-form-control {
+  min-height: calc(var(--unit-kk) * 40);
+  padding: calc(var(--unit-kk) * 15) calc(var(--unit-kk) * 18);
+  color: var(--kk-color-dark);
+  font-family: Poppins;
+  font-size: calc(var(--unit-kk) * 11);
+  line-height: calc(var(--unit-kk) * 24);
+  border: 1px solid var(--kk-color-light-gray6);
+  border-radius: calc(var(--unit-kk) * 5);
+}
+.kk-sidebar .kk-chackbox label::before {
+  top: calc(var(--unit-kk) * 0) !important;
+}
+.kk-chackbox label::before {
+  content: "";
+  position: absolute;
+  top: calc(var(--unit-kk) * 3);
+  inset-inline-start: 0;
+  width: calc(var(--unit-kk) * 25);
+  height: calc(var(--unit-kk) * 25);
+  background: var(--kk-color-light-gray9);
+  border: calc(var(--unit-kk) * 1) solid var(--kk-color-light-gray2);
+  border-radius: calc(var(--unit-kk) * 3);
+}
+.kk-chackbox input:checked ~ label:after {
+  display: block;
+}
+.kk-sidebar .kk-chackbox label::after {
+  top: calc(var(--unit-kk) * 5) !important;
+}
+.kk-chackbox label:after {
+  inset-inline-start: calc(var(--unit-kk) * 9);
+  top: calc(var(--unit-kk) * 6.5);
+  width: calc(var(--unit-kk) * 7);
+  height: calc(var(--unit-kk) * 12);
+  border: solid #fff;
+  border-width: 0 calc(var(--unit-kk) * 3) calc(var(--unit-kk) * 3) 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.kk-chackbox label {
+  position: relative;
+  padding-inline-start: calc(var(--unit-kk) * 36);
+  cursor: pointer;
+  line-height: calc(var(--unit-kk) * 30);
+}
